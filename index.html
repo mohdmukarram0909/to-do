@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #homeid {
+            text-decoration: underline;
+            color: blueviolet;
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    
+</head>
+
+<body class="bodyclass">
+
+    <div class="topnav">
+        <a class="active" id="homeid" href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+    
+
+    <h1>Minimal To-Do List</h1>
+    <ul>
+        <li class="lia">Enter the task and click "+".</li>
+        <li class="lia">Click the task once to cross it off.</li>
+        <li class="lia">Double click on it to delete it from your task list.</li>
+        <li class="lib" style="text-decoration: underline;">Your tasks will remain as they were even if you close your browser and come back afterwards!</li>
+    </ul>
+    <div class = "container">   
+        <input id="inputBox" type="text"><button class = "btn" id = "addIt">+</button>
+        <div class="to-dos" id="content">
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
